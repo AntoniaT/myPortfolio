@@ -1,0 +1,17 @@
+.contact{
+    text-align: center;
+    display: block;
+    height: 70vh;
+    margin-top: 150px;
+}
+.contactText{
+    padding: 0 2em;
+}
+@media  (max-width: 599px){
+    .contact{
+        margin-bottom: 100px;
+    }
+}
+.contact h1{
+    color: #ff5c57;
+}

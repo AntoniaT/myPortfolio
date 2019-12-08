@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+
+.showCaseMain h2, .showCaseMain h3{
+}
+
+.heroImg{
+    width: 50vw;
+    height: auto;
+}
+@media  (max-width: 599px){
+    .heroImg{
+    width: 100vw;
+    height: auto;
+    }
+}
+.showCaseMain{
+    text-align: center;
+    margin-top: 120px;
+}
+.showCaseMainP{
+    width: 50vw;
+    display: block;
+    margin: auto;
+    line-height: 2em;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+@media  (max-width: 599px){
+    .showCaseMain{
+        text-align: left;
+    }
+    .showCaseMainP{
+        width: 80vw;
+
+    }
+}
+.showCaseMain h1{
+    color: #ff5c57;
+    font-size: 2em;
+    letter-spacing: 0.3;
+}
+@media  (max-width: 599px){
+    .showCaseMain h1{
+        font-size: 1.7em;
+        margin: 1em;
+    }
+}
+/* MIDDLE */
+.showCaseOverviewCont{
+    background-color: #DFE7EA;
+    padding: 5em 3em;
+}
+.showCaseOverview{
+    font-family: "Open Sans", sans-serif;
+    padding: 3em 2em;
+    width: 70vw;
+    display: block;
+    margin: auto;
+}
+.showCaseMiddle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4em;
+    border-top: 2px solid #5A6175;
+    border-bottom: 2px solid #5A6175;
+}
+@media  (max-width: 599px){
+    .showCaseMiddle{
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+    border-top: 2px solid #5A6175;
+    border-bottom: 2px solid #5A6175;   
+    }
+}
+
+.showCaseMiddle div{
+    min-width: 150px;
+}
+.showCaseMiddle p{
+    margin: 2em;
+}
+.showCaseProblem{
+    width: 70vw;
+}
+.showCaseProblem p{
+    width: 60vw;
+    display: block;
+    margin: auto;
+    line-height: 2em;
+    padding: 1em;
+}
+.problemIcons{
+    margin: 0 .5em;
+}
+.showCaseProblem a{
+    background-color: #DFE7EA;
+    color: #5A6175; 
+    padding: .5em 1.5em;
+    font-size: 1em;
+    border: 2px solid #5A6175;
+    transition: .5s;
+    margin-bottom: 2em;
+}
+.showCaseProblem a:hover{
+    background-color: #5A6175;
+    color: #fff;
+
+}
+/* RIGHT SIDE */
+.showCaseRight{
+    display: flex;
+    justify-items: center;
+}
+.showCaseRightText{
+    line-height: 2em;
+    width: 50vw;
+    padding: 4em;
+}
+.showCaseRight img{
+    width: 30vw;
+    height: auto;
+    padding: 4em;
+}
+@media  (max-width: 899px) {
+    .showCaseRight{
+        display: block;
+        justify-items: center;
+        margin: auto;
+    } 
+    .showCaseRightText{
+        line-height: 2em;
+        width: 80vw;
+    }
+    .image-wrapper {
+        width: 100vw;
+      }
+    .showCaseRight img{
+        width: 50vw;
+        height: auto;   
+        padding: 4em;
+    }
+}
+@media  (max-width: 599px){
+    .showCaseRight{
+        display: block;
+    }
+}
+
+@media  (max-width: 599px){
+    .showCaseRight img{
+    width: 70vw;
+    height: auto;
+    padding: 1em;
+    margin: auto;
+    display: block;
+}
+}
+@media  (max-width: 599px){
+    .showCaseRightText{
+        width: 80vw;
+        padding: 2em;
+    }  
+}
+/* LEFT SIDE */
+.image-wrapper {
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+
+.showCaseLeft{
+    display: flex;
+    justify-items: center;
+    margin-bottom: 4em;
+}
+.showCaseLeftText{
+    line-height: 2em;
+    width: 50vw;
+    padding: 4em;
+}
+/* MEDIA QUERY for smaller screen version or TABLET*/
+@media  (max-width: 899px) {
+    .showCaseLeft{
+        display: block;
+        justify-items: center;
+        margin: auto;
+    } 
+    .showCaseLeftText{
+        line-height: 2em;
+        width: 80vw;
+    }
+    .image-wrapper {
+        width: 100vw;
+      }
+}
+
+@media  (max-width: 599px){
+    .showCaseLeftText{
+        width: 80vw;
+        padding: 2em;
+    }  
+}
+.showCaseLeft img{
+    width: 35vw;
+    height: auto;   
+    padding: 4em;
+}
+@media  (max-width: 899px){
+    .showCaseLeft img{
+        width: 50vw;
+        height: auto;   
+        padding: 4em;
+    }
+}
+@media  (max-width: 599px) {
+    .showCaseLeft img{
+        width: 70vw;
+        height: auto;
+        padding: 1em;
+        margin: auto;
+        display: block;
+    } 
+}

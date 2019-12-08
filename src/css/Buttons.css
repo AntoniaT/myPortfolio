@@ -1,0 +1,44 @@
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+.regularBtn{
+    background-color: #EE5614;
+    padding: 1em;
+    font-size: 1em;
+    margin-top: 2em;
+    color: #fff;
+    border: none;
+}
+.regularBtn:hover{
+    background-color: transparent;
+    color: #5A6175;
+    border: 3px solid #EE5614;
+}
+.contactBtn{
+   font-size: 1em;
+   font-weight: bold;
+   height: 60px;
+   width: 200px;
+   margin-bottom: 2em;
+} 
+.ctaBtn{
+   background-color: transparent;
+   padding: 1em .5em .2em .5em;
+   text-align: center;
+   color: #5A6175;
+   font-size: 1em;
+   font-weight: 600;
+   height: 35px;
+   width: 180px;
+   border: 2px solid #5A6175;
+   margin: auto;
+   margin-top: 2em;
+   display: block;
+   text-transform: uppercase;
+   letter-spacing: .1em;
+}
+.ctaBtn:hover{
+   background-color: #5A6175;
+   color: #fff;
+}

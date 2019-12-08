@@ -1,0 +1,45 @@
+/*COLORS
+main red: #EE5614
+light footer blue: #DFE7EA
+dark bluegrey: #5A6175
+medium bluegrey: 
+bright blue: #74BBCE
+*/
+
+.aboutCardContainer{
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 3em;
+    margin: 2em;
+  }
+.aboutCardContainer h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: 400;
+} 
+@media  (max-width: 599px){
+  .aboutCardContainer{
+    width: 250px;
+    padding: 3em;
+    margin:.5em;
+  } 
+}
+
+.aboutCardContainer img{
+  width: 250px;
+  height: auto;
+}
+.aboutCardListCont{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-flow: wrap;
+}
+/* h2, h3{
+  color:#ff5c57;
+  font-weight: bold;
+} 
+.blue h1, .blue h3{
+  color: #DFE7EA;
+}*/

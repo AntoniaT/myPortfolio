@@ -1,0 +1,11 @@
+.center{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 150px;
+}
+.cardListContainer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
