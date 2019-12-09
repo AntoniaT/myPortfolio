@@ -6,6 +6,7 @@ import { faTruck } from '@fortawesome/free-solid-svg-icons';
 import { faHourglassEnd } from '@fortawesome/free-solid-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Slide from 'react-reveal/Slide';
+import ModalImage from "react-modal-image";
 
 const ShowCase = (props) =>{
 
@@ -139,7 +140,12 @@ const ShowCaseLeft = ({ projectLeftTitle, projectLeftImg, projectLeftCopy }) => 
         return(
                    <div className="showCaseLeft">
                        <div className="image-wrapper">
-                         <img src={projectLeftImg} alt=""/>
+                        <ModalImage
+                            small={projectLeftImg}
+                            large={projectLeftImg}
+                            alt="Take a closer look"
+                            hideDownload="true"
+                        />
                        </div>
                        <div className="showCaseLeftText">
                          <h2>{projectLeftTitle}</h2>
@@ -152,7 +158,12 @@ const ShowCaseRight = ({ projectRightTitle, projectRightImg, projectRightCopy })
     return(
         <div className="showCaseRight">
             <div className="image-wrapper">
-                 <img src={projectRightImg} alt=""/>
+                <ModalImage
+                small={projectRightImg}
+                large={projectRightImg}
+                alt="Take a closer look"
+                hideDownload="true"
+                 />
             </div>
             <div className="showCaseRightText">
               <h2>{projectRightTitle}</h2>
@@ -166,7 +177,12 @@ const ShowCaseSecLeft = ({ projectLeftSecTitle, projectLeftSecImg, projectLeftSe
     return(
                <div className="showCaseLeft">
                    <div className="image-wrapper">
-                     <img src={projectLeftSecImg} alt=""/>
+                     <ModalImage
+                     small={projectLeftSecImg}
+                     large={projectLeftSecImg}
+                     alt="Take a closer look"
+                     hideDownload="true"
+                      />
                    </div>
                    <div className="showCaseLeftText">
                      <h2>{projectLeftSecTitle}</h2>
@@ -179,7 +195,12 @@ const ShowCaseSecRight = ({ projectRightSecTitle, projectRightSecImg, projectRig
     return(
         <div className="showCaseRight">
             <div className="image-wrapper">
-                 <img src={projectRightSecImg} alt=""/>
+                    <ModalImage
+                    small={projectRightSecImg}
+                    large={projectRightSecImg}
+                    alt="Take a closer look"
+                    hideDownload="true"
+                    />
             </div>
             <div className="showCaseRightText">
               <h2>{projectRightSecTitle}</h2>
@@ -193,7 +214,12 @@ const ShowCaseThirdLeft = ({ projectLeftThirdTitle, projectLeftThirdImg, project
     return(
                <div className="showCaseLeft">
                    <div className="image-wrapper">
-                       <img src={projectLeftThirdImg} alt=""/>
+                       <ModalImage
+                       small={projectLeftThirdImg}
+                       large={projectLeftThirdImg}
+                       alt="Take a closer look"
+                       hideDownload="true"
+                        />
                    </div>
                    <div className="showCaseLeftText">
                      <h2>{projectLeftThirdTitle}</h2>
