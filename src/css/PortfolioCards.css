@@ -2,12 +2,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
   }
-img{
+.imgCards{
     width: 500px;
     height: 350px;
 }
 @media  (max-width: 599px){
-    img{
+    .imgCards{
         width: 100vw;
         height: auto;
     }  

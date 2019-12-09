@@ -143,7 +143,7 @@ const ShowCaseLeft = ({ projectLeftTitle, projectLeftImg, projectLeftCopy }) => 
                         <ModalImage
                             small={projectLeftImg}
                             large={projectLeftImg}
-                            alt="Take a closer look"
+                            alt={projectLeftTitle}
                             hideDownload="true"
                         />
                        </div>
@@ -161,7 +161,7 @@ const ShowCaseRight = ({ projectRightTitle, projectRightImg, projectRightCopy })
                 <ModalImage
                 small={projectRightImg}
                 large={projectRightImg}
-                alt="Take a closer look"
+                alt={projectRightTitle}
                 hideDownload="true"
                  />
             </div>
@@ -180,7 +180,7 @@ const ShowCaseSecLeft = ({ projectLeftSecTitle, projectLeftSecImg, projectLeftSe
                      <ModalImage
                      small={projectLeftSecImg}
                      large={projectLeftSecImg}
-                     alt="Take a closer look"
+                     alt={projectLeftSecTitle}
                      hideDownload="true"
                       />
                    </div>
@@ -198,7 +198,7 @@ const ShowCaseSecRight = ({ projectRightSecTitle, projectRightSecImg, projectRig
                     <ModalImage
                     small={projectRightSecImg}
                     large={projectRightSecImg}
-                    alt="Take a closer look"
+                    alt={projectRightSecTitle}
                     hideDownload="true"
                     />
             </div>
@@ -217,7 +217,7 @@ const ShowCaseThirdLeft = ({ projectLeftThirdTitle, projectLeftThirdImg, project
                        <ModalImage
                        small={projectLeftThirdImg}
                        large={projectLeftThirdImg}
-                       alt="Take a closer look"
+                       alt={projectLeftThirdTitle}
                        hideDownload="true"
                         />
                    </div>

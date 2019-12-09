@@ -7,7 +7,7 @@ const PortfolioCards = ({id, name, subName, subtitle, mainCopy, image, live, cod
   console.log(id, name, image, subtitle, mainCopy, leftTitle, leftImg, rightTitle, leftCopy, rightCopy, leftSecTitle, leftSecImg, leftSecCopy, rightSecTitle, rightSecImg, rightSecCopy)
       return (
       <div className="card">
-          <img src={image} alt="project" />
+          <img className="imgCards" src={image} alt="project" />
             <div className="middle">
               <Link 
               to={{
