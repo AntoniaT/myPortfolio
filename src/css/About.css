@@ -99,11 +99,25 @@ bright blue: #74BBCE
     align-self: center;
     padding: 0 .5em 0 .5em;
 }
+.processUX div{
+    margin-right: 2em;
+}
 .researchIcn{
     width: auto;
     height: 40px;
     cursor: pointer;
 }
+.researchIcn:hover{
+    filter: brightness(70%);
+}
 .aboutTextBox img:hover{
     filter: brightness(70%);
+}
+.uxAnswer{
+    margin-top: 3em;
+    padding: 2em;
+    margin: auto;
+    display: block;
+    width: 50vw;
+    font-size: 1.2em;
 }

@@ -7,6 +7,7 @@ import AboutCardList from './AboutCardList';
 import AboutText from './AboutText';
 import Fade from 'react-reveal/Fade';
 import Footer from './Footer';
+import HoverComponent from './HoverComponent';
 
 class About extends React.Component{
     render() {
@@ -24,15 +25,17 @@ class About extends React.Component{
                 <div className="aboutTextCont">
                     <h1>Hi, I'm Antonia,</h1>
                     <AboutText/>
+                    <Fade left>
+                      <HoverComponent/>
+                    </Fade>
                 </div>
                 <div className="aboutCardListCont">   
                   <AboutCardList />
                 </div>
                 <Link to="/portfolio">
-                <div className="btnContainer">
-                </div>
+                    <div className="btnContainer"></div>
                 </Link>
-                </Fade>
+            </Fade>
             </div>
             <Footer />
             </div>

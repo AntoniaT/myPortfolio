@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/HeaderStyle.css';
+import '../css/Header.css';
 import { ReactComponent as Logo } from '../assets/Anck-logo-red.svg';
 import SideBar from './SideBar';
 
 class Header extends React.Component{
+
     render() {
         return (
          <div>
@@ -18,9 +19,9 @@ class Header extends React.Component{
                   <Link to="/about">About</Link>
                   <Link to="/contact">Contact</Link>
                 </div>
-                <Link to="/contact">
+                <a href={`mailto:${'antoniahackenberger@gmail.com'}`}>
                     <img className="emailIcon" src="../images/MailIcon1.png" alt="contact"/>
-                </Link>
+                </a>
             </div>
         </div>
         );

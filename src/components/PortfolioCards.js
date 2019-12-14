@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const PortfolioCards = ({id, name, subName, subtitle, mainCopy, image, live, code, role, duration, deliverables, problem, leftTitle, leftImg, leftCopy, rightTitle, rightImg, rightCopy, leftSecTitle, leftSecImg, leftSecCopy, rightSecTitle, rightSecImg, rightSecCopy, leftThirdTitle, leftThirdImg, leftThirdCopy, rightThirdTitle, rightThirdImg, rightThirdCopy}) => {
-  console.log(id, name, image, subtitle, mainCopy, leftTitle, leftImg, rightTitle, leftCopy, rightCopy, leftSecTitle, leftSecImg, leftSecCopy, rightSecTitle, rightSecImg, rightSecCopy)
+  //console.log(id, name, image, subtitle, mainCopy, leftTitle, leftImg, rightTitle, leftCopy, rightCopy, leftSecTitle, leftSecImg, leftSecCopy, rightSecTitle, rightSecImg, rightSecCopy)
       return (
       <div className="card">
           <img className="imgCards" src={image} alt="project" />

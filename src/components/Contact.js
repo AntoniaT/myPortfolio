@@ -1,18 +1,20 @@
 import React from 'react';
-import '../css/ContactStyle.css';
+import '../css/Contact.css';
 import '../css/Buttons.css'
 import Fade from 'react-reveal/Fade';
 import Footer from './Footer';
 
 const Contact = () =>{
-    
+    const email = 'antoniahackenberger@gmail.com';
     return (
       <div>
           <div className="contact">
             <Fade bottom>
               <h1>Let's work together!</h1>
               <p>Would you like to work with me? Awesome! </p>
-              <button className="regularBtn contactBtn">CONTACT ME</button>
+              <div className="contactBtnContainer">
+              <a className="contactBtn" href={`mailto:${email}`}>Contact me</a>
+              </div>
             </Fade>
             <Fade bottom>
               <p className="contactText">I would love to discuss how I could help your business and make your goals happen.</p>
