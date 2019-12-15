@@ -1,9 +1,9 @@
 export const AboutTextData = [
     {
-        text: 'I‘m a Multimedia and UX Designer who loves to code! I am currently finishing my studies in Multimedia Design at KEA, School for Design and Technology in Copenhagen. Over the last two years I have participated in over 20+ projects together with other student Designers and Developers. I am educated in User Research and Testing methods, Design Thinking and Front-end Development. However, I recently started to get acquainted with Back-end Development too, since it helps my overall understanding of Software Development.'
+        text: 'I‘m a Multimedia and UX Designer who loves to code! I am currently finishing my studies in Multimedia Design at KEA, School for Design and Technology in Copenhagen. Over the last two years I have participated in over 20+ projects together with other student Designers and Developers. I am educated in User Research and Testing methods, Design Thinking and Front-end Development. To improve my overall understanding of Software Development, I recently familiarized myself with Back-end Development and Databases.'
     },
     {
-        text: 'Before discovering my passion for Front-end Design and Development, I used to work as a Lawyer in Austria, my country of origin. The transition to Design and Coding was a major step, but it proved to be right since I now can truly say: I love what I do!'
+        text: 'Before discovering my passion for Front-end Design and Development, I used to work as a Lawyer in Austria, my country of origin. The transition to Design and Coding was a major step, but proved to be right since I now truly love what I do!'
     }
 ]
 

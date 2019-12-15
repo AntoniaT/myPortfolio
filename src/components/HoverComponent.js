@@ -87,12 +87,8 @@ import '../css/About.css';
               alt="icon"/>
               <p>Validate</p>
           </div>
-          {this.state.hoverValidate ? (
-            <div className="uxAnswer">Validation is a very important step in the UX process to both identify problems in the design and learn about the target user’s behaviour. To validate design and functional choices, I conduct User tests. From 5 seconds test, to think aloud, Bert test, A/B test, eyetracking or expert review — there are many ways to validate decisions as a designer.  The goal is to make the product as usable, user-friendly and desirable as possible.</div>
-            ) : ('')
-          }
           {this.state.hoverResearch ? (
-            <div className="uxAnswer">I usually start my process with an extensive research . This includes market research and competitor research, as well as desk research and sending out surveys to the potential target group of a product. To manage my projects, I also worked with different methods. Usually I choose Kanban, which I set up in Trello Boards, but I also have experience with design sprints and Scrum in my previous projects.</div>
+            <div className="uxAnswer">I usually start my process with an extensive research. This includes market research and competitor research, as well as desk research and sending out surveys to the potential target group of a product. To manage my projects, I worked with different methods. Usually I choose Kanban, which I set up in Trello Boards, but I also have experience with Design sprints and Scrum.</div>
             ) : ('')
           }
           {this.state.hoverDefine ? (
@@ -100,12 +96,16 @@ import '../css/About.css';
             ) : ('')
           }
           {this.state.hoverIdeate ? (
-            <div className="uxAnswer">The goal is to produce as many ideas with an open mind, as I can, to address the problem statement in a facilitated, judgment-free environment. There are many methods to choose from to get started with. This can be sketching, rapid prototyping, mind mapping, card sorting or the crazy 8’s.</div>
+            <div className="uxAnswer">The goal with ideation is to produce as many ideas with an open mind, as I can, to address the problem statement in a facilitated, judgment-free environment. There are many methods to choose from: this can be sketching, rapid prototyping, mind mapping, card sorting or the crazy 8’s.</div>
             ) : ('')
           }
           {this.state.hoverPrototype ? (
-            <div className="uxAnswer">To keep costs to a minimum, I find it beneficial to start with paper prototyping and do early user testing with these prototypes. This is where changes are quick to implement and still cheap. It is also a good indicator if early assumptions show the expected reaction from the user. Moving on with wireframes gives me and stakeholders a structured overview of the flows and architecture of the project.
+            <div className="uxAnswer">To keep costs to a minimum, I find it beneficial to start with paper prototyping and do early user testing with these prototypes. This is where changes are quick to implement and still cheap. It is also a good indicator to see if early assumptions show the expected reaction from the user. Moving on with wireframes gives me and stakeholders a structured overview of the flows and architecture of the project.
             </div>
+            ) : ('')
+          }
+          {this.state.hoverValidate ? (
+            <div className="uxAnswer">Validation is a very important step in the UX process to both identify problems in the design and learn about the target user’s behaviour. To validate design and functional choices, I conduct User tests. From 5 seconds test, to think aloud, Bert test, A/B test, eyetracking or expert review — there are many ways to validate decisions as a designer.  The goal is to make the product as usable, user-friendly and desirable as possible.</div>
             ) : ('')
           }
         </div>

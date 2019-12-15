@@ -13,7 +13,7 @@ const Contact = () =>{
               <h1>Let's work together!</h1>
               <p>Would you like to work with me? Awesome! </p>
               <div className="contactBtnContainer">
-              <a className="contactBtn" href={`mailto:${email}`}>Contact me</a>
+              <a className="contactBtn" href={`mailto:${email}`}>Let's talk</a>
               </div>
             </Fade>
             <Fade bottom>
