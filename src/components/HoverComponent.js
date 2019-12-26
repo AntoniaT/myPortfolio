@@ -88,24 +88,23 @@ import '../css/About.css';
               <p>Validate</p>
           </div>
           {this.state.hoverResearch ? (
-            <div className="uxAnswer">I usually start my process with an extensive research. This includes market research and competitor research, as well as desk research and sending out surveys to the potential target group of a product. To manage my projects, I worked with different methods. Usually I choose Kanban, which I set up in Trello Boards, but I also have experience with Design sprints and Scrum.</div>
+            <div className="uxAnswer">I usually start my process with an extensive research. This includes market and competitor research, either as desk research or by gathering my own data via surveys or interviews. To manage my projects, I work with different methods: usually I choose Kanban, which I set up in Trello Boards, but I also have experience with Design sprints and Scrum.</div>
             ) : ('')
           }
           {this.state.hoverDefine ? (
-            <div className="uxAnswer">In the next step I define the customers with the help of Personas and identify stakeholders for the product. A problem formulation and description helps to understand the scope and purpose of the project. </div>
+            <div className="uxAnswer">In the next step, I define the customers with the help of Personas and identify stakeholders for the product. A problem formulation and description helps to understand the scope and purpose of the project.</div>
             ) : ('')
           }
           {this.state.hoverIdeate ? (
-            <div className="uxAnswer">The goal with ideation is to produce as many ideas with an open mind, as I can, to address the problem statement in a facilitated, judgment-free environment. There are many methods to choose from: this can be sketching, rapid prototyping, mind mapping, card sorting or the crazy 8’s.</div>
+            <div className="uxAnswer">The goal with ideation is to produce as many ideas as I can to address the problem statement in a judgment-free environment. There are many methods to choose from: this could be Sketching, Rapid Prototyping, Mind Mapping, Card Sorting or the Crazy 8’s.</div>
             ) : ('')
           }
           {this.state.hoverPrototype ? (
-            <div className="uxAnswer">To keep costs to a minimum, I find it beneficial to start with paper prototyping and do early user testing with these prototypes. This is where changes are quick to implement and still cheap. It is also a good indicator to see if early assumptions show the expected reaction from the user. Moving on with wireframes gives me and stakeholders a structured overview of the flows and architecture of the project.
-            </div>
+            <div className="uxAnswer">To keep costs to a minimum, I find it useful to start off and do early user testing with paper prototypes. This is where changes are quick to implement and still cheap. It is furthermore a good indicator to see if my early assumptions about the expected user reaction were true. Moving on with wireframes gives me and stakeholders a structured overview of the flows and the architecture of the project.</div>
             ) : ('')
           }
           {this.state.hoverValidate ? (
-            <div className="uxAnswer">Validation is a very important step in the UX process to both identify problems in the design and learn about the target user’s behaviour. To validate design and functional choices, I conduct User tests. From 5 seconds test, to think aloud, Bert test, A/B test, eyetracking or expert review — there are many ways to validate decisions as a designer.  The goal is to make the product as usable, user-friendly and desirable as possible.</div>
+            <div className="uxAnswer">Validation is a very important step in the UX process to identify problems in the design and to learn about the target user’s behaviour. To validate design and functional choices, I conduct user tests. From Think Aloud Test to 5 Second Test, BERT or A/B Test, Eye tracking or expert review — there are many ways to validate decisions as a designer. The goal is to make the product as usable, user-friendly and desirable as possible.</div>
             ) : ('')
           }
         </div>

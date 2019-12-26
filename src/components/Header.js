@@ -11,7 +11,7 @@ class Header extends React.Component{
          <div>
             <SideBar/>
             <div className="header hideDesktop">
-                <Link exact to="/" className="logo-container">
+                <Link exact="true" to="/" className="logo-container">
                   <Logo className="logo" />
                 </Link>
                 <div className="linkContainer">

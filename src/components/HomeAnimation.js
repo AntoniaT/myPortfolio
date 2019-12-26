@@ -3,6 +3,7 @@ import '../css/Home.css';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import '../css/Buttons.css'
+import { Link } from 'react-router-dom';
 
 
 const HomeAnimation = () => (
@@ -14,8 +15,8 @@ const HomeAnimation = () => (
                        <h2 className="headline subTitle">I design and build for the Web</h2>
                      </Slide>
                      <Slide bottom>
-                     <a href="/about" className="ctaBtn">Find out more</a>
-                   </Slide>
+                        <Link className="ctaBtn" to="/about">Find out more</Link>
+                     </Slide>
                    </div> 
             );
 

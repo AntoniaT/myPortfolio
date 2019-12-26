@@ -1,0 +1,16 @@
+     <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169.7 149.05">
+      <title>Loader</title>
+      <g id="Ebene_5" data-name="Ebene 5"><polyline class="line1" points="85.03 2.5 49.52 51.7 85.63 145.21 119.64 52.16 85.03 2.5"/><polyline class="line1" points="3.22 49.75 51.97 52.16 119.64 52.16 166.43 49.75"/></g>
+      
+      <g id="Ebene_2_Kopie" data-name="Ebene 2 Kopie">
+          <polygon class="line2" points="39.11 2.5 127.12 2.5 166.43 49.75 85.63 145.21 3.22 49.75 39.11 2.5"/></g>
+      
+      <g id="Ebene_7" data-name="Ebene 7">
+          <line class="line3" x1="51.17" y1="50.74" x2="66.6" y2="19.89"/>
+          <line class="line3" x1="70.56" y1="28.46" x2="78.75" y2="50.74"/>
+          <line class="line3" x1="89.97" y1="19.89" x2="89.97" y2="50.73"/>
+          <polyline class="line3" points="109.6 19.89 109.6 50.73 98.38 35.31"/>
+          <path class="line3" d="M325.79,282.19a13.39,13.39,0,0,0-7.64-2.43c-8.23,0-14.89,7.69-14.89,17.17s6.66,17.16,14.89,17.16a14.1,14.1,0,0,0,11.15-5.79" transform="translate(-248.03 -222.25)"/>
+          <polyline class="line3" points="109.6 57.51 89.5 74.9 109.6 92.29"/></g>
+      
+      </svg>
